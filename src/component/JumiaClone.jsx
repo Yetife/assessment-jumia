@@ -6,16 +6,16 @@ import Footer from "./Footer.jsx";
 import TopDeals from "./TopDeals.jsx";
 import PhoneAndTabletCategory from "./PhoneAndTabletCategory.jsx";
 import OfficialStore from "./OfficialStore.jsx";
-
+import phone1 from '../assets/phone6.jpg'
 export default function JumiaClone() {
 
     return (
         <div>
             <Navbar/>
-            <div className="min-h-screen bg-gray-100 md:px-40">
+            <div className="min-h-screen bg-gray-100 lg:px-40">
 
                 {/* Flash Sale Banner */}
-                <div className="bg-white p-4 mt-4 mx-4 rounded shadow">
+                <div className="bg-white p-4 mt-4 mx-1 rounded shadow">
                     <div className="bg-gray-100 p-3 rounded flex items-center justify-between">
                         <div>
                             <h3 className="font-bold text-lg">FLASH SALE AWOOF!</h3>
@@ -43,7 +43,7 @@ export default function JumiaClone() {
                 <OfficialStore />
 
                 {/* Smartphones Listing */}
-                <div className="flex flex-col md:flex-row mt-4 mx-4 gap-4">
+                <div className="flex flex-col md:flex-row mt-4 mx-1 gap-4">
                     {/* Filters - Desktop */}
                     <div className="hidden md:block w-64 bg-white rounded shadow p-4 h-fit">
                         <h3 className="font-bold mb-3">CATEGORY</h3>
@@ -121,6 +121,20 @@ export default function JumiaClone() {
 
                     {/* Products Grid */}
                     <div className="flex-1 bg-white rounded shadow p-4">
+
+                        <div className="mb-4">
+                            <h2 className="text-lg font-semibold">Smartphones <span className="text-sm text-gray-500">(8872 products found)</span></h2>
+                            <div className="flex flex-wrap gap-2 text-sm text-orange-500 mt-1">
+                                <span className="text-[#535357] font-normal">Related results:</span>
+                                <a href="#" className="hover:underline">Quality Camera Phones</a> |
+                                <a href="#" className="hover:underline">Black Friday Smartphones</a> |
+                                <a href="#" className="hover:underline">Table</a> |
+                                <a href="#" className="hover:underline">C Table</a> |
+                                <a href="#" className="hover:underline">Anniversary</a> |
+                                <a href="#" className="hover:underline">Stay Connected</a> |
+                                <a href="#" className="hover:underline">Smart Table</a>
+                            </div>
+                        </div>
                         <div className="flex flex-wrap gap-2 mb-4">
                             <div className="hidden md:block">
                                 <span className="bg-orange-100 text-orange-500 text-xs px-2 py-1 rounded">EXPRESS</span>
@@ -138,24 +152,10 @@ export default function JumiaClone() {
                             </div>
                         </div>
 
-                        <div className="mb-4">
-                            <h2 className="text-lg font-semibold">Smartphones <span className="text-sm text-gray-500">(8872 products found)</span></h2>
-                            <div className="flex flex-wrap gap-2 text-sm text-orange-500 mt-1">
-                                <span>Related results:</span>
-                                <a href="#" className="hover:underline">Quality Camera Phones</a> |
-                                <a href="#" className="hover:underline">Black Friday Smartphones</a> |
-                                <a href="#" className="hover:underline">Table</a> |
-                                <a href="#" className="hover:underline">C Table</a> |
-                                <a href="#" className="hover:underline">Anniversary</a> |
-                                <a href="#" className="hover:underline">Stay Connected</a> |
-                                <a href="#" className="hover:underline">Smart Table</a>
-                            </div>
-                        </div>
-
                         {/* Products Grid */}
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                             <ListingProductCard
-                                image="/api/placeholder/150/150"
+                                image={phone1}
                                 title="XIAOMI Redmi A3x 6.71"
                                 price="88,316"
                                 rating={4}
@@ -164,7 +164,7 @@ export default function JumiaClone() {
                             />
 
                             <ListingProductCard
-                                image="/api/placeholder/150/150"
+                                image={phone1}
                                 title="itel A50 6.6"
                                 price="93,500"
                                 originalPrice="110,000"
@@ -176,7 +176,7 @@ export default function JumiaClone() {
                             />
 
                             <ListingProductCard
-                                image="/api/placeholder/150/150"
+                                image={phone1}
                                 title="itel RS4 256GB ROM+8 GB RAM"
                                 price="159,000"
                                 originalPrice="250,000"
@@ -188,7 +188,7 @@ export default function JumiaClone() {
                             />
 
                             <ListingProductCard
-                                image="/api/placeholder/150/150"
+                                image={phone1}
                                 title="Samsung Galaxy A05 6.7 4GB RAM/64GB ROM"
                                 price="106,853"
                                 rating={4}
@@ -197,7 +197,7 @@ export default function JumiaClone() {
                             />
 
                             <ListingProductCard
-                                image="/api/placeholder/150/150"
+                                image={phone1}
                                 title="Samsung Galaxy A05 6.7 4GB RAM 128GB ROM"
                                 price="142,203"
                                 rating={4.5}
@@ -206,7 +206,7 @@ export default function JumiaClone() {
                             />
 
                             <ListingProductCard
-                                image="/api/placeholder/150/150"
+                                image={phone1}
                                 title="XIAOMI Redmi 14C 6.88 4GB RAM/128GB ROM"
                                 price="125,712"
                                 rating={4}
@@ -215,7 +215,7 @@ export default function JumiaClone() {
                             />
 
                             <ListingProductCard
-                                image="/api/placeholder/150/150"
+                                image={phone1}
                                 title="Tecno Spark 30C 6.6 4GB RAM/128GB ROM"
                                 price="159,474"
                                 rating={4}
@@ -224,7 +224,7 @@ export default function JumiaClone() {
                             />
 
                             <ListingProductCard
-                                image="/api/placeholder/150/150"
+                                image={phone1}
                                 title="XIAOMI Redmi 14C 6.88 8GB RAM/256GB ROM"
                                 price="157,722"
                                 rating={4}
@@ -249,7 +249,7 @@ export default function JumiaClone() {
                 </div>
 
                 {/* About Section */}
-                <div className="bg-white p-4 mt-4 mx-4 rounded shadow">
+                <div className="bg-white p-4 mt-4 mx-1 rounded shadow">
                     <h2 className="text-lg font-semibold mb-2">Discover the Best Smartphones on Jumia</h2>
                     <p className="text-sm mb-3">
                         In today's digital age, smartphones are more than just communication devices—they're your gateway to staying connected, productive, and entertained. At Jumia, we offer an extensive collection of the latest smartphones to suit your lifestyle, whether you're looking for cutting-edge technology, budget-friendly options, or devices tailored for gaming, photography, or multitasking.

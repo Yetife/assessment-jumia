@@ -40,7 +40,7 @@ const PhoneAndTabletCategory = () => {
         },
     ]
     return (
-        <div className="bg-white mt-4 mx-4 rounded shadow">
+        <div className="bg-white mt-4 mx-1 rounded shadow">
             <h2 className="mb-4 bg-[#FEE2CC] px-4 py-3 font-normal text-[1.25rem] text-center">Phones & Tablets Categories</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-2">
                 {

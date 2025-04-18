@@ -38,10 +38,10 @@ const ListingProductCard = ({ image, title, price, originalPrice, discount, rati
                 </div>
                 <div className="mt-1 flex flex-wrap gap-1">
                     {officialStore && (
-                        <span className="bg-blue-100 text-blue-600 text-xs px-1.5 py-0.5 rounded">Official Store</span>
+                        <span className="bg-[#276076] text-white text-xs px-1.5 py-0.5 rounded">Official Store</span>
                     )}
                     {payOnDelivery && (
-                        <span className="bg-green-100 text-green-600 text-xs px-1.5 py-0.5 rounded">Pay on Delivery</span>
+                        <span className="bg-[#FF0000] text-white text-xs px-1.5 py-0.5 rounded">Pay on Delivery</span>
                     )}
                 </div>
             </div>

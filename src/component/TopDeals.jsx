@@ -4,6 +4,7 @@ import ProductCard from "./ProductCard.jsx";
 import phone1 from "../assets/phone1.svg"
 import phone2 from "../assets/phone2.jpg"
 import phone3 from "../assets/phone5.jpg"
+import phone4 from '../assets/phone6.jpg'
 const TopDeals = () => {
     const products = [
         {
@@ -16,7 +17,7 @@ const TopDeals = () => {
             reviews: 214
         },
         {
-            image: phone1,
+            image: phone2,
             title: "itel S25 Ultra 6.78",
             price: "231,300",
             originalPrice: "300,000",
@@ -29,13 +30,13 @@ const TopDeals = () => {
             image: phone3,
             title: "XIAOMI Redmi 14C 6.88",
             price: "125,712",
-            originalPrice: "",
-            discount: "",
+            originalPrice: "153,160",
+            discount: "-15%",
             rating: 4,
             reviews: 42
         },
         {
-            image: phone1,
+            image: phone4,
             title: "Infinix Smart 9HD 6.7",
             price: "117,261",
             originalPrice: "136,211",
@@ -54,7 +55,7 @@ const TopDeals = () => {
         }
     ]
     return (
-        <div className="bg-white mt-4 mx-4 rounded shadow">
+        <div className="bg-white mt-4 mx-1 rounded shadow">
             <div className="flex justify-between items-center mb-4 bg-[#FEE2CC] px-4 py-3">
                 <h2 className="font-normal text-[1.25rem]">Top Deals</h2>
                 <a href="#" className="text-sm text-gray-600 flex items-center">
