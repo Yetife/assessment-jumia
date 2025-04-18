@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, Menu, Search, ShoppingCart, X, ChevronRight } from "lucide-react";
+import { ChevronDown, Menu, Search, ShoppingCart, X, ChevronRight, User, HelpCircle, SearchIcon } from "lucide-react";
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -40,12 +40,15 @@ const Navbar = () => {
 
                     {/* User actions */}
                     <div className="flex items-center space-x-4">
-                        <div className="hidden md:flex items-center">
-                            <span>Account</span>
-                            <ChevronDown className="w-4 h-4 ml-1" />
+                        <SearchIcon className="w-6 h-6 pl-2 md:hidden inline"/>
+                        <div className="flex items-center">
+                            <User  className="w-6 h-6"/>
+                            <span className="pl-2 hidden md:inline">Account</span>
+                            <ChevronDown className="w-4 h-4 ml-1 hidden md:inline" />
                         </div>
                         <div className="hidden md:flex items-center">
-                            <span>Help</span>
+                            <HelpCircle className="w-6 h-6"/>
+                            <span  className="pl-2">Help</span>
                             <ChevronDown className="w-4 h-4 ml-1" />
                         </div>
                         <div className="flex items-center">

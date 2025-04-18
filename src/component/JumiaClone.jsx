@@ -15,23 +15,27 @@ export default function JumiaClone() {
             <div className="min-h-screen bg-gray-100 lg:px-40">
 
                 {/* Flash Sale Banner */}
-                <div className="bg-white p-4 mt-4 mx-1 rounded shadow">
-                    <div className="bg-gray-100 p-3 rounded flex items-center justify-between">
-                        <div>
-                            <h3 className="font-bold text-lg">FLASH SALE AWOOF!</h3>
-                            <p className="text-sm">Huge 68% OFF itel PowerPulse A1160 Power-Bank 20000mAh 12W Fast Charging TypeC</p>
-                            <div className="mt-2 text-sm">
-                                <span className="bg-red-500 text-white px-2 py-1 rounded-full text-xs">HOT</span>
-                                <span className="ml-2 font-semibold">ITEL</span>
-                            </div>
-                        </div>
-                        <div className="flex flex-col items-center">
-                            <img src="/api/placeholder/120/100" alt="Power Bank" className="mb-2" />
-                            <button className="bg-orange-500 text-white px-4 py-2 rounded text-sm font-semibold">
-                                BUY NOW
-                            </button>
-                        </div>
-                    </div>
+                {/*<div className="bg-white p-4 mt-4 mx-1 rounded shadow">*/}
+                {/*    <div className="bg-gray-100 p-3 rounded flex items-center justify-between">*/}
+                {/*        <div>*/}
+                {/*            <h3 className="font-bold text-lg">FLASH SALE AWOOF!</h3>*/}
+                {/*            <p className="text-sm">Huge 68% OFF itel PowerPulse A1160 Power-Bank 20000mAh 12W Fast Charging TypeC</p>*/}
+                {/*            <div className="mt-2 text-sm">*/}
+                {/*                <span className="bg-red-500 text-white px-2 py-1 rounded-full text-xs">HOT</span>*/}
+                {/*                <span className="ml-2 font-semibold">ITEL</span>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*        <div className="flex flex-col items-center">*/}
+                {/*            <img src="/api/placeholder/120/100" alt="Power Bank" className="mb-2" />*/}
+                {/*            <button className="bg-orange-500 text-white px-4 py-2 rounded text-sm font-semibold">*/}
+                {/*                BUY NOW*/}
+                {/*            </button>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+
+                <div className=" pt-4 mt-4 mx-1">
+                    <p className="text-sm">Home  >  Phones & Tablets > Mobile Phones > Smartphones</p>
                 </div>
 
                 {/* Top Deals Section */}
