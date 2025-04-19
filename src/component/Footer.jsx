@@ -5,10 +5,10 @@ const Footer = () => {
     return (
         <div>
             {/* Footer */}
-            <footer className="mt-8 bg-gray-800 text-white">
-                <div className="container mx-auto pt-6">
+            <footer className="mt-8 text-white">
+                <div className="pt-6">
                     <div>
-                        <div className="mb-8 md:mb-0 flex flex-col md:flex-row justify-around">
+                        <div className="bg-gray-800 py-8 md:mb-0 flex flex-col md:flex-row justify-around">
                             <h2 className="text-2xl font-bold mb-4">JUMIA<span className="text-orange-500">⚡</span></h2>
 
                             <div className="mb-6">

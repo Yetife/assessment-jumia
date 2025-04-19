@@ -10,9 +10,9 @@ import phone1 from '../assets/phone6.jpg'
 export default function JumiaClone() {
 
     return (
-        <div>
+        <div className='bg-gray-100'>
             <Navbar/>
-            <div className="min-h-screen bg-gray-100 lg:px-40">
+            <div className="min-h-screen lg:px-40">
 
                 {/* Flash Sale Banner */}
                 {/*<div className="bg-white p-4 mt-4 mx-1 rounded shadow">*/}
